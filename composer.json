@@ -1,0 +1,25 @@
+{
+    "name": "osynapsy/osynapsy-cron",
+    "version": "0.1",
+    "homepage": "http://www.osynapsy.net/cron",
+    "type": "library",
+    "description": "Cron library",
+    "keywords": ["Osynapsy", "Cron"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-cron/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0",
+        "osynapsy/osynapsy-core" : "@stable"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Cron\\": "src/"
+        }
+    }
+}
